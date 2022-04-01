@@ -1,0 +1,168 @@
+                            body {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                                color: white;
+                                font-size: 18px;
+                            }
+                            
+                            .bold {
+                                font-weight: bold;
+                            }
+                            
+                            .container {
+                                width: 75%;
+                                margin: 0 auto;
+                                padding-top: 25px;
+                            }
+                            /*header*/
+                            
+                            #navigation {
+                                background-color: #B11313;
+                            }
+                            
+                            #navigation a {
+                                color: white;
+                                text-decoration: none;
+                            }
+                            /*design section spiderman*/
+                            
+                            #spiderman {
+                                background-image: url("../Illustration/img1.png");
+                                height: 700px;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                color: #ffff;
+                            }
+                            
+                            .spiderman {
+                                width: 75%;
+                                margin: 0 auto;
+                                padding-top: 25px;
+                            }
+                            
+                            @font-face {
+                                font-family: 'spiderman';
+                                src: url("../far_from_homecoming/Far-From\ Homecoming\ Updated.otf");
+                            }
+                            
+                            .spiderman .titre {
+                                font-family: 'spiderman';
+                                padding-top: 250px;
+                                color: #ffff;
+                                font-size: 60px;
+                            }
+                            
+                            .bouton .heros {
+                                background-color: #ffff;
+                                color: #B11313;
+                                padding: 10px 25px;
+                                border-radius: 15px;
+                                margin-right: 25px;
+                            }
+                            
+                            .bouton .adversaires {
+                                border: 1px solid #ffff;
+                                background-color: rgba(255, 255, 255, 0);
+                                color: #ffff;
+                                padding: 10px 25px;
+                                border-radius: 15px;
+                            }
+                            
+                            .bouton {
+                                margin-top: 50px;
+                            }
+                            /*design spiderman au cinema*/
+                            
+                            #cinema {
+                                background-color: #a61111;
+                            }
+                            
+                            #cinema .titre {
+                                font-family: 'spiderman';
+                                padding-top: 10px;
+                                color: #ffff;
+                                font-size: 25px;
+                            }
+                            
+                            .cinema {
+                                width: 75%;
+                                margin: 0 auto;
+                                padding-top: 25px;
+                            }
+                            
+                            .amazing-spider {
+                                display: flex;
+                                justify-content: center;
+                                align-self: center;
+                            }
+                            
+                            .amazing-spider div {
+                                margin: 10px;
+                                padding: 20px;
+                            }
+                            
+                            .amazing-spider button {
+                                background-color: #ffff;
+                                color: #B11313;
+                                padding: 10px 25px;
+                                border-radius: 15px;
+                                margin-right: 25px;
+                            }
+                            /*section partie formulaire bleu*/
+                            
+                            #spider-bleu {
+                                background-image: url("../Illustration/img5.png");
+                                background-repeat: no-repeat;
+                                background-color: #114C92;
+                                color: white;
+                            }
+                            
+                            #spider-bleu .titre {
+                                font-family: 'spiderman';
+                                padding-top: 10px;
+                                color: #ffff;
+                                font-size: 25px;
+                                margin-top: 50px;
+                            }
+                            
+                            .spider-bleu {
+                                justify-content: center;
+                                align-items: center;
+                                text-align: center;
+                            }
+                            
+                            .formulaire {
+                                margin: 25px;
+                            }
+                            
+                            .spider-bleu button {
+                                color: white;
+                                border: 1px solid white;
+                                border-radius: 10px;
+                            }
+                            
+                            .spider-bleu button :hover {
+                                font-weight: bold;
+                                color: white;
+                                border: 1px solid white;
+                            }
+                            /*section partie inscription newsletter*/
+                            
+                            #spider-rouge {
+                                background-image: url("../Illustration/img6.png");
+                                background-repeat: no-repeat;
+                                background-color: #B11313;
+                                color: white;
+                                background-position: bottom right;
+                                background-size: 50%;
+                            }
+                            
+                            #spider-rouge .titre {
+                                font-family: 'spiderman';
+                                padding-top: 10px;
+                                color: #ffff;
+                                font-size: 25px;
+                                margin-top: 50px;
+                            }
